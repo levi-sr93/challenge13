@@ -1,0 +1,79 @@
+:root {
+  --upstart-orange: #ff5721;
+}
+
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding: 50px;
+  color: #fff;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 6px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--upstart-orange);
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--upstart-orange);
+  opacity: 0.5;
+}
+
+.App-header {
+  margin-bottom: 20px;
+}
+
+.Text-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+}
+
+.Text-typing {
+  display: flex;
+  flex-direction: column;
+}
+
+.Button {
+  margin: 10px auto 10px;
+}
+
+.Tooltips-boxes {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 720px) {
+    .Text-section {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .Tooltips-boxes {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .Box {
+      margin: 10px auto;
+    }
+}

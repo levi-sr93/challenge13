@@ -1,0 +1,5 @@
+.Text-result {
+  max-height: 195px;
+  overflow: auto;
+  word-break: break-all;
+}

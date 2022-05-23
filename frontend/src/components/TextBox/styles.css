@@ -1,0 +1,9 @@
+.Text-area {
+  background-color: #787c84;
+  color: #fff;
+  border-radius: 8px;
+  border: 0;
+  outline: 0;
+  padding: 20px;
+  resize: none;
+}

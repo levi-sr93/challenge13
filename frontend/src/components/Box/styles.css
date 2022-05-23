@@ -1,0 +1,11 @@
+.Box {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: lightslategrey;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
